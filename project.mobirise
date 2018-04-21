@@ -27,10 +27,12 @@
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#45505b"
+      ]
     },
     "versionFirst": "4.5.4",
-    "uniqCompNum": 47,
+    "uniqCompNum": 62,
     "versionPublish": "4.7.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -445,7 +447,7 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.com\">\n                        <img src=\"../_images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">\n                        Gustavo Canovas</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\">\n                        Home</a>\n                </li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-black\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">\n                        Vídeos</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html#gallery2-k\" data-app-selector=\".nav-link,.dropdown-item\">\n                        Fotos</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\">Currículo</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"index.html#soundcloud2-a\" data-app-selector=\".nav-link,.dropdown-item\">Voz</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"index.html#form1-o\" data-app-selector=\".nav-link,.dropdown-item\">Contato</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +55 11 &nbsp;98272-4321 &nbsp;&nbsp;</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.com\">\n                        <img src=\"../_images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">\n                        Gustavo Canovas</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\">\n                        Home</a>\n                </li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">\n                        Vídeos</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#gallery2-k\" data-app-selector=\".nav-link,.dropdown-item\">\n                        Fotos</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\">Currículo</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#soundcloud2-a\" data-app-selector=\".nav-link,.dropdown-item\">Voz</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#form1-o\" data-app-selector=\".nav-link,.dropdown-item\">Contato</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-warning\" href=\"tel:+1-234-567-8901\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +55 11 &nbsp;98272-4321 &nbsp;&nbsp;</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "qPcSFvObvD",
           "_anchor": "menu2-6",
           "_protectedParams": [],
@@ -521,7 +523,7 @@
             }
           },
           "_name": "header8",
-          "_customHTML": "<section class=\"header8\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Video PopUp\" name=\"showVideoPopUp\" checked>\n        <input type=\"text\" title=\"Modal Video\" name=\"modalVideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\" condition=\"showVideoPopUp\">\n        <input type=\"checkbox\" title=\"Show Description\" name=\"showDescription\" checked condition=\"showVideoPopUp\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../_images/background6.jpg\" title=\"Background Image\" selected parallax>\n            <input type=\"color\" value=\"#510938\" title=\"Background Color\">\n            <input type=\"video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\" title=\"Background Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center py-2 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                        Gustavo Canovas</h1>\n                <p class=\"mbr-text align-center py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\">\n                        Ator</p>\n                <div class=\"mbr-media show-modal align-center py-2\" mbr-if=\"showVideoPopUp\" data-modal=\".modalWindow\">\n                         <span mbr-icon class=\"mbri-play mbr-iconfont\"></span>\n                </div>\n                <div mbr-text class=\"icon-description align-center font-italic pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDescription && showVideoPopUp\" data-app-selector=\".icon-description\">\n                        Clique para ver o vídeo de apresentação</div>\n                <div class=\"mbr-section-btn text-center\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                     <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.com\">MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showVideoPopUp\">\n        <div class=\"modalWindow\" style=\"display: none;\">\n            <div class=\"modalWindow-container\">\n                <div class=\"modalWindow-video-container\">\n                    <div class=\"modalWindow-video\">\n                        <iframe width=\"100%\" height=\"100%\" data-src=\"{{modalVideo}}\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n                    </div>\n                    <a class=\"close\" role=\"button\" data-dismiss=\"modal\">\n                        <span aria-hidden=\"true\" class=\"mbri-close mbr-iconfont closeModal\"></span>\n                        <span class=\"sr-only\">Close</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header8\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Video PopUp\" name=\"showVideoPopUp\">\n        <input type=\"text\" title=\"Modal Video\" name=\"modalVideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\" condition=\"showVideoPopUp\">\n        <input type=\"checkbox\" title=\"Show Description\" name=\"showDescription\" condition=\"showVideoPopUp\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/03-1-1300x1635.jpg\" title=\"Background Image\" selected parallax>\n            <input type=\"color\" value=\"#232323\" title=\"Background Color\">\n            <input type=\"video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\" title=\"Background Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center py-2 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><br><br><br><br><br>Gustavo Canovas</h1>\n                <p class=\"mbr-text align-center py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\">\n                        Ator</p>\n                <div class=\"mbr-media show-modal align-center py-2\" mbr-if=\"showVideoPopUp\" data-modal=\".modalWindow\">\n                         <span mbr-icon class=\"mbri-play mbr-iconfont\"></span>\n                </div>\n                <div mbr-text class=\"icon-description align-center font-italic pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDescription && showVideoPopUp\" data-app-selector=\".icon-description\">\n                        Clique para ver o vídeo de apresentação</div>\n                <div class=\"mbr-section-btn text-center\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                     <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.com\">MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showVideoPopUp\">\n        <div class=\"modalWindow\" style=\"display: none;\">\n            <div class=\"modalWindow-container\">\n                <div class=\"modalWindow-video-container\">\n                    <div class=\"modalWindow-video\">\n                        <iframe width=\"100%\" height=\"100%\" data-src=\"{{modalVideo}}\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n                    </div>\n                    <a class=\"close\" role=\"button\" data-dismiss=\"modal\">\n                        <span aria-hidden=\"true\" class=\"mbri-close mbr-iconfont closeModal\"></span>\n                        <span class=\"sr-only\">Close</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qPcPB2sxRG",
           "_anchor": "header8-1",
           "_PHPplaceholders": [],
@@ -554,7 +556,7 @@
             }
           },
           "_name": "testimonials2",
-          "_customHTML": "<section class=\"testimonials2\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"130\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n          <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n          <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure pr-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"../_images/face4.jpg\">\n            </div>\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                    <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".testimonial-text\">GUSTAVO CANOVAS\n<br>\n<br>Nascido em Sao Paulo, Gustavo Canovas, empresario ate o ano de 2016, depois de ter feito teatro na adolescencia decidiu voltar para a vida artistica em 2008 cursando a escola de teatro Macunaima onde se formou para nao largar mais a carreira.\n<br>\n<br>Em 2010 com o DRT em maos, comecou a atuar profissionalmente,em publicidade e no  teatro com sua primeira peca “Antes do fim” dir. Hudson Sena.\n<br>\n<br> Paralelamente iniciou trabalhos em publicidade, cinema e televisao. Se aprimorou atraves de diversos cursos de atuacao voltados para o teatro,onde passou por diferentes escolas como Grupo Tapa e Club Noir, e tambem cursos para  tv e cinema.\n<br>\n<br>Num desses cursos conheceu o diretor de cinema Cristiano Burlan, que o convidou para atuar em um longa em 2011 “Sinfonia de um homem so” onde nasceu uma parceria que ja resultou em 07 longa metragens trabalhando juntos. \n<br>\n<br>No teatro teve o privilegio de encenar classicos como “Navalha na carne” personagem Vado, com direcao de Marcos Loureiro, alem de ter sido dirigido por outros grandes diretores como xxxx, Mario Bortolotto e Juliana Galdino.\n<br>\n<br>Nos ultimos anos, participou da novela “Amor a vida” Globo, e atuou em diversas series, “O negocio” e “A vida secreta dos casais” HBO, “Desnude” GNT, “Rotas do Odio” Universal, “Os irmaos Freitas” e “Carcereiros” Globo.</p>\n                    <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\">\n                       David F.\n                    </p>\n                    <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\">\n                       DEVELOPER\n                    </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"testimonials2\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"130\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n          <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n          <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure pr-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"@PROJECT_PATH@/assets/images/05-1162x1461.jpg\" alt title>\n            </div>\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                    <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".testimonial-text\">GUSTAVO CANOVAS\n<br>\n<br>Nascido em Sao Paulo, Gustavo Canovas, empresario ate o ano de 2016, depois de ter feito teatro na adolescencia decidiu voltar para a vida artistica em 2008 cursando a escola de teatro Macunaima onde se formou para nao largar mais a carreira.\n<br>\n<br>Em 2010 com o DRT em maos, comecou a atuar profissionalmente,em publicidade e no  teatro com sua primeira peca “Antes do fim” dir. Hudson Sena.\n<br>\n<br> Paralelamente iniciou trabalhos em publicidade, cinema e televisao. Se aprimorou atraves de diversos cursos de atuacao voltados para o teatro,onde passou por diferentes escolas como Grupo Tapa e Club Noir, e tambem cursos para  tv e cinema.\n<br>\n<br>Num desses cursos conheceu o diretor de cinema Cristiano Burlan, que o convidou para atuar em um longa em 2011 “Sinfonia de um homem so” onde nasceu uma parceria que ja resultou em 07 longa metragens trabalhando juntos. \n<br>\n<br>No teatro teve o privilegio de encenar classicos como “Navalha na carne” personagem Vado, com direcao de Marcos Loureiro, alem de ter sido dirigido por outros grandes diretores como xxxx, Mario Bortolotto e Juliana Galdino.\n<br>\n<br>Nos ultimos anos, participou da novela “Amor a vida” Globo, e atuou em diversas series, “O negocio” e “A vida secreta dos casais” HBO, “Desnude” GNT, “Rotas do Odio” Universal, “Os irmaos Freitas” e “Carcereiros” Globo.</p>\n                    <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\">\n                       David F.\n                    </p>\n                    <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\">\n                       DEVELOPER\n                    </p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qPe5JZFkmV",
           "_anchor": "testimonials2-19",
           "_protectedParams": [],
@@ -652,7 +654,7 @@
             }
           },
           "_name": "features11",
-          "_customHTML": "<section class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text Header\" name=\"showTextHead\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"5\" value=\"50\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#f9f9f9\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">   \n        <div class=\"col-md-12\">\n            <div class=\"media-container-row\">\n                <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                    <img src=\"../_images/img/05.jpg\" alt=\"Mobirise\">\n                </div>\n                <div class=\" align-left aside-content\">\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                        Dados Físicos<br><br></h2>\n                    <div class=\"mbr-section-text\">\n                        <p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text\">\n                        Click any text or icon to edit or style it. Use the block parameters to hide/show text or icons and change media size or position.\n                        </p>\n                    </div>\n\n                    <div class=\"block-content\" mbr-if=\"showTextHead||showText||showIcons\">\n                        <div class=\"card p-3 pr-3\">\n                            <div class=\"media\">\n                                <div class=\" align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-extension mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">\n                                        Over 400 Amazing Blocks\n                                    </h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"><b>Idade:</b> 46 anos\n<br><b>Altura</b>: 1,80\n<br><b>Peso</b>: 80 kg\n<br><b>Camisa</b>: 3\n<br><b>Colarinho</b>: 2\n<br><b>Calça</b>: 42\n<br><b>Manequim</b>: 42\n<br><b>Terno</b>: 50\n<br><b>Sapato</b>: 42\n<br><b>Olhos</b>: Castanho escuro\n<br><b>Cabelo</b>: Castanho escuro grisalho\n<br><b>Pele</b>: Branca</p>\n                            </div>\n                        </div>\n\n                        <div class=\"card p-3 pr-3\" mbr-if=\"cardsAmount > 1\">\n                            <div class=\"media\">\n                                <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-drag-n-drop2 mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\"></h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"></p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div> \n    </div>          \n</section>",
+          "_customHTML": "<section class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text Header\" name=\"showTextHead\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"5\" value=\"50\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#f9f9f9\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">   \n        <div class=\"col-md-12\">\n            <div class=\"media-container-row\">\n                <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/02-952x1197.jpg\" alt=\"Mobirise\" title>\n                </div>\n                <div class=\" align-left aside-content\">\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                        Dados Físicos<br><br></h2>\n                    <div class=\"mbr-section-text\">\n                        <p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text\">\n                        Click any text or icon to edit or style it. Use the block parameters to hide/show text or icons and change media size or position.\n                        </p>\n                    </div>\n\n                    <div class=\"block-content\" mbr-if=\"showTextHead||showText||showIcons\">\n                        <div class=\"card p-3 pr-3\">\n                            <div class=\"media\">\n                                <div class=\" align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-extension mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">\n                                        Over 400 Amazing Blocks\n                                    </h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"><b>Idade:</b> 46 anos\n<br><b>Altura</b>: 1,80\n<br><b>Peso</b>: 80 kg\n<br><b>Camisa</b>: 3\n<br><b>Colarinho</b>: 2\n<br><b>Calça</b>: 42\n<br><b>Manequim</b>: 42\n<br><b>Terno</b>: 50\n<br><b>Sapato</b>: 42\n<br><b>Olhos</b>: Castanho escuro\n<br><b>Cabelo</b>: Castanho escuro grisalho\n<br><b>Pele</b>: Branca</p>\n                            </div>\n                        </div>\n\n                        <div class=\"card p-3 pr-3\" mbr-if=\"cardsAmount > 1\">\n                            <div class=\"media\">\n                                <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-drag-n-drop2 mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\"></h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"></p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div> \n    </div>          \n</section>",
           "_cid": "qPdRwAk7Tr",
           "_anchor": "features11-y",
           "_protectedParams": [],
@@ -670,118 +672,47 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-section-subtitle": {
-              "color": "#767676",
-              "text-align": "center",
-              "font-weight": "300"
+            "position": "relative",
+            "p": {
+              "color": "#767676"
             },
-            ".timeline-text-content": {
-              "padding": "2rem 2.5rem",
-              "background": "@timelineColor",
-              "margin-left": "2rem",
-              "p": {
-                "margin-bottom": "0"
-              }
-            },
-            ".time-line-date-content": {
-              "margin-right": "2rem",
-              "p": {
-                "padding": "2rem 2.5rem",
-                "background": "@timelineColor",
-                "float": "right"
-              }
-            },
-            ".timeline-element": {
-              "margin-bottom": "50px",
-              "position": "relative",
-              "word-wrap": "break-word",
-              "word-break": "break-word",
-              "display": "-webkit-flex",
-              "flex-direction": "row",
-              "-webkit-flex-direction": "row",
-              "&:hover": {
-                ".mbr-timeline-date": {
-                  "box-shadow": "0 7px 20px 0px rgba(0, 0, 0, 0.08)",
-                  "transition": "all .4s"
-                },
-                ".timeline-text-content": {
-                  "box-shadow": "0 7px 20px 0px rgba(0, 0, 0, 0.08)",
-                  "transition": "all .4s"
+            ".card": {
+              "border-radius": "0px",
+              "margin-bottom": "-1px",
+              ".card-header": {
+                "border-radius": "0px",
+                "border": "0px",
+                "padding": "0",
+                "a.panel-title": {
+                  "margin-bottom": "0",
+                  "margin-top": "-1px",
+                  "font-weight": "500",
+                  "font-style": "normal",
+                  "display": "block",
+                  "text-decoration": "none !important",
+                  "line-height": "normal",
+                  "&:focus": {
+                    "text-decoration": "none !important"
+                  },
+                  "h4": {
+                    "border": "1px solid #dfdfdf",
+                    "padding": "1.3rem 2rem",
+                    "margin-bottom": "0",
+                    ".sign": {
+                      "padding-right": "1rem"
+                    }
+                  }
                 }
               }
             },
-            ".mbr-timeline-date, .timeline-text-content": {
-              "transition": "all .4s"
-            },
-            ".reverse": {
-              "flex-direction": "row-reverse",
-              "-webkit-flex-direction": "row-reverse",
-              ".timeline-text-content": {
-                "margin-right": "2rem",
-                "margin-left": "0"
-              },
-              ".time-line-date-content": {
-                "margin-left": "2rem",
-                "margin-right": "0rem",
-                "p": {
-                  "float": "left"
-                }
-              }
-            },
-            ".iconBackground": {
-              "position": "absolute",
-              "left": "50%",
-              "width": "20px",
-              "height": "20px",
-              "line-height": "30px",
-              "text-align": "center",
-              "border-radius": "50%",
-              "font-size": "30px",
-              "display": "inline-block",
-              "background-color": "@timelineColor",
-              "top": "20px",
-              "margin-left": "-10px"
-            },
-            ".separline:before": {
-              "top": "20px",
-              "bottom": "0",
-              "position": "absolute",
-              "content": "\"\"",
-              "width": "2px",
-              "background-color": "@timelineColor",
-              "left": "calc(50% ~\"-\" 1px)",
-              "height": "calc(100% ~\"+\" 4rem)"
-            },
-            "@media (max-width: 768px)": {
-              ".iconBackground": {
-                "left": "0 !important"
-              },
-              ".separline:before": {
-                "left": "0!important"
-              },
-              ".timeline-text-content": {
-                "margin-left": "0 !important"
-              },
-              ".time-line-date-content": {
-                "margin-right": "0 !important",
-                "p": {
-                  "float": "left !important"
-                }
-              },
-              ".reverse": {
-                ".time-line-date-content": {
-                  "margin-left": "0 !important"
-                },
-                ".timeline-text-content": {
-                  "margin-right": "0 !important"
-                }
-              }
+            ".panel-text": {
+              "color": "#4f4943"
             }
           },
-          "_name": "timeline1",
-          "_customHTML": "<section class=\"timeline1\" group=\"Timelines\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel)-->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Dates\" name=\"showDates\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        \n        <input type=\"color\" title=\"Timelines Color\" name=\"timelineColor\" value=\"#ffffff\">\n        <select title=\"Timelines count\" name=\"timelinesAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n            <option value=\"9\">9</option>\n            <option value=\"10\">10</option>\n            <option value=\"11\">11</option>\n            <option value=\"12\">12</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/03.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#f8f8f8\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cccccc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container align-center\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Currículo</h2>\n        <h3 class=\"mbr-section-subtitle pb-5 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            Lugares que passei até chegar aqui</h3>\n\n        <div class=\"container timelines-container\" mbri-timelines>\n            <div class=\"row timeline-element reverse\" mbr-class=\"{'separline':timelinesAmount>1}\">      \n                 <div class=\"timeline-date-panel col-xs-12 col-md-6  align-left\">         \n                    <div class=\"time-line-date-content\">\n                        <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            1 january 2018  \n                        </p>\n                    </div>\n                </div>\n           <span class=\"iconBackground\"></span>\n            <div class=\"col-xs-12 col-md-6 align-right\">\n                <div class=\"timeline-text-content\">\n                    <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                        Multi Homepages\n                    </h4>\n                    <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                    </p>\n                 </div>\n            </div>\n            </div>\n\n            <div class=\"row timeline-element \" mbr-if=\"timelinesAmount>1\" mbr-class=\"{'separline':timelinesAmount>2}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-6 align-right\">\n                    <div class=\"time-line-date-content\">\n                        <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            2 february 2019  \n                        </p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-6 align-left \">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Responsive Design\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                        </p>\n                    </div>\n                </div>\n            </div> \n\n\n            <div class=\"row timeline-element reverse\" mbr-if=\"timelinesAmount>2\" mbr-class=\"{'separline':timelinesAmount>3}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-6  align-left\">\n                    <div class=\"time-line-date-content\">\n                        <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            3 march 2020\n                        </p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-6 align-right\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Smart Watch\n                        </h4>      \n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"row timeline-element \" mbr-if=\"timelinesAmount>3\" mbr-class=\"{'separline':timelinesAmount>4}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-6 align-right\">\n                    <div class=\"time-line-date-content\">\n                        <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            4 april 2021\n                        </p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-6 align-left \">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Design out of the box\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n\n            <div class=\"row timeline-element reverse\" mbr-if=\"timelinesAmount>4\" mbr-class=\"{'separline':timelinesAmount>5}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-6  align-left\">\n                    <div class=\"time-line-date-content\">\n                        <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            5 may 2022\n                        </p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-6 align-right\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Awesome Reports\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n\n            <div class=\"row timeline-element\" mbr-if=\"timelinesAmount>5\" mbr-class=\"{'separline':timelinesAmount>6}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-6 align-right\">\n                    <div class=\"time-line-date-content\">\n                       <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                            6 june 2023\n                        </p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-6 align-left \">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Multi Homepages\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"row timeline-element reverse\" mbr-if=\"timelinesAmount>6\" mbr-class=\"{'separline':timelinesAmount>7}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-6  align-left\">\n                    <div class=\"time-line-date-content\">\n                        <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                           7 july 2024\n                        </p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-6 align-right\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Responsive Design\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"row timeline-element\" mbr-if=\"timelinesAmount>7\" mbr-class=\"{'separline':timelinesAmount>8}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-6 align-right\">\n                    <div class=\"time-line-date-content\">\n                        <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                           8 august 2025  \n                        </p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-6 align-left \">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Smart Watch\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"row timeline-element reverse\" mbr-if=\"timelinesAmount>8\" mbr-class=\"{'separline':timelinesAmount>9}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-6  align-left\">\n                    <div class=\"time-line-date-content\">\n                        <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                           9 september 2026\n                        </p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-6 align-right\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Design out of the box\n                        </h4>\n\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"row timeline-element\" mbr-if=\"timelinesAmount>9\" mbr-class=\"{'separline':timelinesAmount>10}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-6 align-right\">\n                    <div class=\"time-line-date-content\">\n                       <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                          10 october 2027\n                        </p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-6 align-left \">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Awesome Reports\n                        </h4> \n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"row timeline-element reverse\" mbr-if=\"timelinesAmount>10\" mbr-class=\"{'separline':timelinesAmount>11}\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-6  align-left\">\n                    <div class=\"time-line-date-content\">\n                       <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                          11 november 2028\n                        </p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-6 align-right\">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Design out of the box\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"row timeline-element\" mbr-if=\"timelinesAmount>11\">\n                <div class=\"timeline-date-panel col-xs-12 col-md-6 align-right\">\n                    <div class=\"time-line-date-content\">\n                        <p class=\"mbr-timeline-date mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showDates\" data-app-selector=\".mbr-timeline-date\">\n                           12 december 2029\n                        </p>\n                    </div>\n                </div>\n                <span class=\"iconBackground\"></span>\n                <div class=\"col-xs-12 col-md-6 align-left \">\n                    <div class=\"timeline-text-content\">\n                        <h4 class=\"mbr-timeline-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-timeline-title\">\n                            Awesome Reports\n                        </h4>\n                        <p class=\"mbr-timeline-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-timeline-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qPdHRd1MOU",
-          "_anchor": "timeline1-r",
+          "_name": "toggle1",
+          "_customHTML": "<section class=\"toggle1\" group=\"Accordion & Toggles & Tabs\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <select title=\"Toggles Count\" name=\"bootstrapAccordion\">\n             <option value=\"1\">1</option>\n             <option value=\"2\">2</option>\n             <option value=\"3\">3</option>\n             <option value=\"4\">4</option>\n             <option value=\"5\" selected>5</option>\n             <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/02.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n        <div class=\"container\">\n            <div class=\"media-container-row\">\n                <div class=\"col-12 col-md-8\">\n                    <div class=\"section-head text-center space30\">\n                       <h2 class=\"mbr-section-title pb-5 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                            Currículo</h2>\n                    </div>\n                    <div class=\"clearfix\"></div>\n                    <div id=\"bootstrap-toggle\" class=\"toggle-panel accordionStyles tab-content\">\n                        <div class=\"card\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                    <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                        <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>Gustavo Canovas</h4>\n                                </a>\n                            </div>\n                            <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\">\n                                <div class=\"panel-body p-4\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"><b>Drt</b>: 32.287 sp\n<br><b>Rg</b>: 20.479.080 -3 <br><b>    Cpf</b>: 150.934.018-11   \n<br><b>Data de nascimento:</b> &nbsp;20/11/1971\n<br><b>Formação:</b>  Teatro Escola Macunaíma 2011&nbsp;<br></p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 1\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingTwo\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                    <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                        <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>Cinema</h4>\n                                </a>\n\n                            </div>\n                            <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingTwo\">\n                                <div class=\"panel-body p-4\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"><b>Longa metragem: </b><br>&nbsp;<br><b>O Projecionista </b>- dir. Cristiano Burlan 2018\n<br><b>No Vazio da noite</b>- dir. Cristiano Burlan 2016\n<br><b>Gostosas, lindas e sexies</b> - dir. Ernani Nunes 2016\n<br><b>Hamlet</b> – dir. Cristiano Burlan 2015\n<br><b>Fome</b> – dir. Cristiano Burlan 2015\n<br><b>Amador</b> - dir. Cristiano Burlan  2014\n<br><b>Sinfonia de um homem só</b> - dir. Cristiano Burlan 2012 &nbsp;<br></p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 2\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                    <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                        <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>Novela e Série</h4>\n                                </a>\n                            </div>\n                            <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body p-4\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"><i><b>“Desnude”</b></i> GNT 2018\n<br><i><b>“Rotas do Odio”</b></i> Universal Channel 2018\n<br><i><b>“O Negocio” </b></i>HBO 2018\n<br><i><b>“Os Irmaos Freitas”</b></i> Rede Globo 2018\n<br><i><b>“Carcereiros”</b></i> Rede Globo 2018\n<br><i><b>“A vida secreta dos casais”</b></i> Hbo 2017\n<br><i><b>“Amor à vida” </b></i> Rede Globo 2013&nbsp;<br></p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 3\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                    <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                        <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>Teatro</h4>\n                                </a>\n                            </div>\n                            <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body p-4\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"><b>Do que falamos quando falamos de amor, texto</b> - dir. Mario Bortolotto 2017\n<br><b>Navalha na carne, Plínio Marcos</b> – dir. Marcos Loureiro 2016\n<br><b>Gloomy Sunday, Regis Rodrigues</b> – dir. Regis Rodrigues 2016\n<br><b>Sal, pimenta, alho e nós moscada, Claudia Barral</b> - dir. Cristiano Burlan 2016\n<br><b>Amor sob suspeita, steven Dietz</b> – dir. Alexandre Tenório 2015\n<br><b>Homem em Marte, Alex Capelossa</b> – dir. Melissa Panzutti 2014\n<br><b>Depois da vida , Hirokazu Koreeda</b> - dir. Juliana Galdino 2013&nbsp;<br></p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 4\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                    <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                        <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>Publicidade</h4>\n                                </a>\n                            </div>\n                            <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body p-4\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"><b>Advil, Tokio Marine, Itau Personalite, Nextel, Cacau Show, Doriana, Volks, MacDonalds, Bradesco, Ourocard, Merthiolate, Lg, Claro, GM, Fecomercio, Loterias Caixa e outros</b></p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card\" mbr-if=\"bootstrapAccordion > 5\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                    <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                        <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span> This is a accordion Title 6\n                                    </h4>\n                                </a>\n                            </div>\n                            <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body p-4\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n</section>",
+          "_cid": "qPSJkPXAgi",
+          "_anchor": "toggle1-1d",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -872,6 +803,227 @@
           "_once": false,
           "_params": {
             "text_all": "Todos",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Perfil",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/01-1300x1635.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/01-1300x1635-800x1006.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "Perfil",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/02-1300x1635.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/02-1300x1635-800x1006.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "Perfil",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/03-1300x1635.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/03-1300x1635-800x1006.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "Perfil",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/04-1300x1635.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/04-1300x1635-800x1006.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "Perfil",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/05-1300x1635.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/05-1300x1635-800x1006.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "Perfil",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/06-1300x1635.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/06-1300x1635-800x1006.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "Perfil",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/07-1300x1635.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/07-1300x1635-800x1006.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "Perfil",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/08-1300x1635.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/08-1300x1635-800x1006.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "Perfil",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/09-1300x1635.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/09-1300x1635-800x1006.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
+              },
+              {
+                "tags": "Perfil",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/10-1300x1635.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/10-1300x1635-800x1006.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": true
+              }
+            ]
+          }
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            }
+          },
+          "_name": "gallery2",
+          "_customHTML": "\n<section class=\"mbr-gallery mbr-slider-carousel cid-qPdSKt509j\" id=\"gallery2-10\">\n        <h2 class=\"pb-3 align-center mbr-fonts-style display-2\">Galeria de Vídeos</h2>\n        \n        <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n        <div>\n            <div>\n                <!-- Filter -->\n                <div class=\"mbr-gallery-filter container gallery-filter-active\">\n                    <ul buttons=\"0\">\n                        <li class=\"mbr-gallery-filter-all\">\n                            <a class=\"btn btn-md btn-primary-outline active display-7\" href=\"\">Todos</a>\n                        </li>\n                    </ul>\n                </div>\n                <!-- Gallery -->\n                <div class=\"mbr-gallery-row\">\n                    <div class=\"mbr-gallery-layout-default\">\n                        <div>\n                            <div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=N50KWnu3elU\"\n                                    data-tags=\"Publicidade\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"0\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/N50KWnu3elU/maxresdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Propaganda - Tokio Marine (30 seg)</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=NAgy_FI8xDo\"\n                                    data-tags=\"Publicidade\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"1\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/NAgy_FI8xDo/maxresdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Propaganda - Tokio Marine (2,18 min)</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=kW715fadwK0\"\n                                    data-tags=\"Publicidade\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"2\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/kW715fadwK0/hqdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Propaganda - Itaú Personnalité 360</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=xedq7q2p26U\"\n                                    data-tags=\"Publicidade\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"3\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/xedq7q2p26U/maxresdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Propaganda -Investimento 360</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=cEH_l3lnmlM\"\n                                    data-tags=\"Publicidade\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"4\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/cEH_l3lnmlM/maxresdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Propaganda - Cacau Show (1 min)</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=s2jOmIZ-XXY\"\n                                    data-tags=\"Publicidade\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"5\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/s2jOmIZ-XXY/maxresdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Propaganda - Nextel 2017</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=d3uzr5iPaVs\"\n                                    data-tags=\"Publicidade\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"6\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/d3uzr5iPaVs/maxresdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Propaganda -&nbsp;VOLKS 2015</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=AXmNpdifMqY\"\n                                    data-tags=\"Publicidade\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"7\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/AXmNpdifMqY/maxresdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Propaganda -&nbsp;Merthiolate</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=Yb5YSU0zDTM\"\n                                    data-tags=\"Publicidade\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"8\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/Yb5YSU0zDTM/maxresdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Propaganda -&nbsp;Claro</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=Nohut7N6Kt8\"\n                                    data-tags=\"Publicidade\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"9\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/Nohut7N6Kt8/hqdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Propaganda -&nbsp;Ourocard Copa</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=X3VAPYyXB84\"\n                                    data-tags=\"Publicidade\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"10\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/X3VAPYyXB84/hqdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Propaganda -&nbsp;Loterias Caixa 2013</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=Wto62tQsJ6k\"\n                                    data-tags=\"Publicidade\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"11\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/Wto62tQsJ6k/maxresdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Propaganda - Ford Focus</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=ZxvCahKgmhc\"\n                                    data-tags=\"Publicidade\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"12\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/ZxvCahKgmhc/hqdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Propaganda - LG</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=yb5_09NjtyA\"\n                                    data-tags=\"Cinema\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"13\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/yb5_09NjtyA/maxresdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Curta Metragem - Floresta Vermelha</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=kVO3yo4kMAI\"\n                                    data-tags=\"Cinema\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"14\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/kVO3yo4kMAI/maxresdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Curta Metragem - Isso é uma comédia desgraçada</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=IXwufpic83U\"\n                                    data-tags=\"Cinema\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"15\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/IXwufpic83U/maxresdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Curta Metragem - Recônditos</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=DkXdd4L87_c\"\n                                    data-tags=\"Cinema\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"16\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/DkXdd4L87_c/hqdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Curta Metragem - Perfídia</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=aDRavkOW1HA\"\n                                    data-tags=\"Cinema\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"17\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/aDRavkOW1HA/maxresdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Curta Metragem - Jardim das Cerejeiras</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=nmicNYrux5c\"\n                                    data-tags=\"Cinema\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"18\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/nmicNYrux5c/maxresdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Longa Metragem - Foda-se meu amor</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2 video-slide\" data-video-url=\"https://www.youtube.com/watch?v=6tdJy1i4gXY\"\n                                    data-tags=\"Série\">\n                                    <div href=\"#lb-gallery2-10\" data-slide-to=\"19\" data-toggle=\"modal\">\n                                        <div></div>\n                                        <img alt=\"\" src=\"https://i.ytimg.com/vi/6tdJy1i4gXY/maxresdefault.jpg\">\n                                        <span class=\"icon-video\"></span>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Série - As Marias</span>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"clearfix\"></div>\n                    </div>\n                </div>\n                <!-- Lightbox -->\n                <div data-app-prevent-settings=\"\" class=\"mbr-slider modal fade carousel slide\" tabindex=\"-1\" data-keyboard=\"true\"\n                    data-interval=\"false\" id=\"lb-gallery2-10\">\n                    <div class=\"modal-dialog\">\n                        <div class=\"modal-content\">\n                            <div class=\"modal-body\">\n                                <div class=\"carousel-inner\">\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery00.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery01.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery02.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery03.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery04.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery05.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery06.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery07.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery07.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery07.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery07.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery07.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery07.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery07.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery07.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery07.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery07.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery07.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item video-container\">\n                                        <img src=\"assets/images/gallery07.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                    <div class=\"carousel-item active video-container\">\n                                        <img src=\"assets/images/gallery07.jpg\" alt=\"\" title=\"\">\n                                    </div>\n                                </div>\n                                <a class=\"carousel-control carousel-control-prev\" role=\"button\" data-slide=\"prev\" href=\"#lb-gallery2-10\">\n                                    <span class=\"mbri-left mbr-iconfont\" aria-hidden=\"true\"></span>\n                                    <span class=\"sr-only\">Previous</span>\n                                </a>\n                                <a class=\"carousel-control carousel-control-next\" role=\"button\" data-slide=\"next\" href=\"#lb-gallery2-10\">\n                                    <span class=\"mbri-right mbr-iconfont\" aria-hidden=\"true\"></span>\n                                    <span class=\"sr-only\">Next</span>\n                                </a>\n                                <a class=\"close\" href=\"#\" role=\"button\" data-dismiss=\"modal\">\n                                    <span class=\"sr-only\">Close</span>\n                                </a>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n    </section>",
+          "_cid": "qPSRBMjBfC",
+          "_anchor": "gallery2-1e",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
             "gallery__filtersTextStyle": "display-7",
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
@@ -1001,29 +1153,6 @@
             ".mbr-slider .modal-body .close": {
               "background": "#1b1b1b"
             },
-            ".mbr-gallery-item > div::before": {
-              "content": "''",
-              "position": "absolute",
-              "left": "0",
-              "top": "0",
-              "width": "100%",
-              "height": "100%",
-              "background": "@overlayColor",
-              "& when (@gradOverlay)": {
-                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
-              },
-              "opacity": "0",
-              "-webkit-transition": "0.2s opacity ease-in-out",
-              "transition": "0.2s opacity ease-in-out"
-            },
-            ".mbr-gallery-item > div:hover": {
-              ".mbr-gallery-title::before": {
-                "background": "transparent !important"
-              },
-              "&:before": {
-                "opacity": "@overlayOpacity !important"
-              }
-            },
             ".mbr-gallery-title": {
               "font-size": ".9em",
               "position": "absolute",
@@ -1041,20 +1170,20 @@
                 "left": "0",
                 "z-index": "-1",
                 "position": "absolute",
-                "background": "@overlayColor !important",
+                "transition": "0.2s background ease-in-out",
                 "& when (@gradOverlay)": {
                   "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
                 },
                 "opacity": "@overlayOpacity",
-                "-webkit-transition": "0.2s background ease-in-out",
-                "transition": "0.2s background ease-in-out"
+                "-webkit-transition": "0.2s background ease-in-out"
               }
             }
           },
           "_name": "gallery2",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n    <h2 class=\"pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\">Galeria de Vídeos</h2>\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-filter mbr-gallery-show-text></div>\n    </div>\n\n</section>",
-          "_cid": "qPdSKt509j",
-          "_anchor": "gallery2-10",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel cid-qPdSKt509j\" id=\"gallery2-10\">\n        <h2 class=\"pb-3 align-center mbr-fonts-style display-2\">Galeria de Aúdios</h2>\n        \n        <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n        <div>\n            <div>\n                <!-- Filter -->\n                <div class=\"mbr-gallery-filter container gallery-filter-active\">\n                    <ul buttons=\"0\">\n                        <li class=\"mbr-gallery-filter-all\">\n                            <a class=\"btn btn-md btn-primary-outline active display-7\" href>Todos</a>\n                        </li>\n                    </ul>\n                </div>\n                <!-- Gallery -->\n                <div class=\"mbr-gallery-row\">\n                    <div class=\"mbr-gallery-layout-default\">\n                        <div>\n                            <div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2\" data-tags=\"Publicidade\">\n                                    <div>\n                                        <div></div>\n                                        <iframe src=\"https://drive.google.com/file/d/19dyhLdgSWgnuCbRCfdX2qMS1VD2-SRsF/preview\" class=\"audio\"></iframe>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Black Friday</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2\" data-tags=\"Publicidade\">\n                                    <div>\n                                        <div></div>\n                                        <iframe src=\"https://drive.google.com/file/d/1PUiiFT3l54WnHVGOQLMeEw0K-T05Lhfl/preview\"></iframe>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Kibon</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2\" data-tags=\"Publicidade\">\n                                    <div>\n                                        <div></div>\n                                        <iframe src=\"https://drive.google.com/file/d/1aXymgitG1DNqlGUe1TLJ-jiKLSXnHAfC/preview\"></iframe>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Quasar</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2\" data-tags=\"Publicidade\">\n                                    <div>\n                                        <div></div>\n                                        <iframe src=\"https://drive.google.com/file/d/1pqJ4OlmjMhWNJKT4VyINV2BvdCkodL0t/preview\"></iframe>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Knorr</span>\n                                    </div>\n                                </div>\n                                <div class=\"mbr-gallery-item mbr-gallery-item--p2\" data-tags=\"Publicidade\">\n                                    <div>\n                                        <div></div>\n                                        <iframe src=\"https://drive.google.com/file/d/14c-XWpxyoAAPtkXiVqvv9biTakmMAAub/preview\"></iframe>\n                                        <span class=\"mbr-gallery-title mbr-fonts-style display-7\">Omo</span>\n                                    </div>\n                                </div>\n                                \n                                 \n    \n    \n   \n                               \n                            </div>\n                        </div>\n                        <div class=\"clearfix\"></div>\n                    </div>\n                </div>\n                \n            </div>\n        </div>\n\n    </section>",
+          "_anchor": "gallery2-1o",
+          "_isUserblock": true,
+          "_cid": "qPT3B1wS6C",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_protectedParams": [
@@ -1066,286 +1195,153 @@
           "_global": false,
           "_once": false,
           "_params": {
-            "text_all": "Todos",
+            "text_all": "All",
             "gallery__filtersTextStyle": "display-7",
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
-                "tags": "Publicidade",
+                "tags": "Fantástica",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=N50KWnu3elU",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Propaganda - Tokio Marine (30 seg)",
-                "active": false
+                "caption": "Digite aqui a legenda",
+                "active": true
               },
               {
-                "tags": "Publicidade",
+                "tags": "Responsivo",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=NAgy_FI8xDo",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Propaganda - Tokio Marine (2,18 min)",
+                "caption": "Digite aqui a legenda",
                 "active": false
               },
               {
-                "tags": "Publicidade",
+                "tags": "Criativo",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=kW715fadwK0",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Propaganda - Itaú Personnalité 360",
+                "caption": "Digite aqui a legenda",
                 "active": false
               },
               {
-                "tags": "Publicidade",
+                "tags": "Animado",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=xedq7q2p26U",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Propaganda -Investimento 360",
+                "caption": "Digite aqui a legenda",
                 "active": false
               },
               {
-                "tags": "Publicidade",
+                "tags": "Fantástica",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=cEH_l3lnmlM",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Propaganda - Cacau Show (1 min)",
+                "caption": "Digite aqui a legenda",
                 "active": false
               },
               {
-                "tags": "Publicidade",
+                "tags": "Fantástica",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=s2jOmIZ-XXY",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Propaganda - Nextel 2017",
+                "caption": "Digite aqui a legenda",
                 "active": false
               },
               {
-                "tags": "Publicidade",
+                "tags": "Responsivo",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=d3uzr5iPaVs",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Propaganda -&nbsp;VOLKS 2015",
+                "caption": "Digite aqui a legenda",
                 "active": false
               },
               {
-                "tags": "Publicidade",
+                "tags": "Animado",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=AXmNpdifMqY",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Propaganda -&nbsp;Merthiolate",
+                "caption": "Digite aqui a legenda",
                 "active": false
-              },
-              {
-                "tags": "Publicidade",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=Yb5YSU0zDTM",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Propaganda -&nbsp;Claro",
-                "active": false
-              },
-              {
-                "tags": "Publicidade",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=Nohut7N6Kt8",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Propaganda -&nbsp;Ourocard Copa",
-                "active": false
-              },
-              {
-                "tags": "Publicidade",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=X3VAPYyXB84",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Propaganda -&nbsp;Loterias Caixa 2013",
-                "active": false
-              },
-              {
-                "tags": "Publicidade",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=Wto62tQsJ6k",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Propaganda - Ford Focus",
-                "active": false
-              },
-              {
-                "tags": "Publicidade",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=ZxvCahKgmhc",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Propaganda - LG",
-                "active": false
-              },
-              {
-                "tags": "Cinema",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=yb5_09NjtyA",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Curta Metragem - Floresta Vermelha",
-                "active": false
-              },
-              {
-                "tags": "Cinema",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=kVO3yo4kMAI",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Curta Metragem - Isso é uma comédia desgraçada",
-                "active": false
-              },
-              {
-                "tags": "Cinema",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=IXwufpic83U",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Curta Metragem - Recônditos",
-                "active": false
-              },
-              {
-                "tags": "Cinema",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=DkXdd4L87_c",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Curta Metragem - Perfídia",
-                "active": false
-              },
-              {
-                "tags": "Cinema",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=aDRavkOW1HA",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Curta Metragem - Jardim das Cerejeiras",
-                "active": false
-              },
-              {
-                "tags": "Cinema",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=nmicNYrux5c",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Longa Metragem - Foda-se meu amor",
-                "active": false
-              },
-              {
-                "tags": "Série",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=6tdJy1i4gXY",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Série - As Marias",
-                "active": true
               }
             ]
           }
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<div class=\"audio-gallery\">\n<h2 class=\"pb-3 align-center mbr-fonts-style\">Galeria de Aúdios</h2>\n\n<iframe src=\"https://drive.google.com/file/d/19dyhLdgSWgnuCbRCfdX2qMS1VD2-SRsF/preview\" class=\"audio\"></iframe>\n</div>\n\n\n",
-          "_customCSS": "/* Type valid CSS here */\n.audio {\n  width: 60%;\n  margin: 0 auto;\n  display: table;\n}\n\n.audio-gallery {\n  padding: 15px 0px;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extesões"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-13",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "[class^=\"socicon-\"]:before, [class*=\" socicon-\"]:before": {
+              "line-height": "44px"
+            },
+            ".btn-social": {
+              "border-color": "@iconsColor",
+              "&:hover": {
+                "background": "@iconsColor",
+                "& i.socicon": {
+                  "color": "contrast(@iconsColor) !important"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".btn": {
+                "font-size": "20px !important"
+              }
+            }
+          },
+          "_name": "social-buttons1",
+          "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"SocialLikes\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#149dcc\">\n\n        <header>It will share the current page</header>\n        <input type=\"checkbox\" title=\"Facebook\" name=\"facebook\" checked>\n        <input type=\"checkbox\" title=\"Twitter\" name=\"twitter\" checked>\n        <input type=\"checkbox\" title=\"Google+\" name=\"google\" checked>\n        <input type=\"checkbox\" title=\"Vkontakte\" name=\"vkontakte\">\n        <input type=\"checkbox\" title=\"Odnoklassniki\" name=\"odnoklassniki\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-md-8 align-center\">\n                <h2 class=\"pb-3 mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".btn-social, .mbr-section-title \">\n                    Minhas redes sociais</h2>\n                <div>\n                    <div class=\"mbr-social-likes\" data-counters=\"false\">\n                        <span mbr-if=\"facebook\" class=\"btn btn-social facebook mx-2\" title=\"Share link on Facebook\">\n                            <i class=\"socicon socicon-facebook\"></i>\n                        </span>\n                        <span mbr-if=\"twitter\" class=\"btn btn-social twitter mx-2\" title=\"Share link on Twitter\">\n                            <i class=\"socicon socicon-twitter\"></i>\n                        </span>\n                        <span mbr-if=\"google\" class=\"btn btn-social plusone mx-2\" title=\"Share link on Google+\">\n                            <i class=\"socicon socicon-googleplus\"></i>\n                        </span>\n                        <span mbr-if=\"vkontakte\" class=\"btn btn-social vkontakte mx-2\" title=\"Share link on VKontakte\">\n                            <i class=\"socicon socicon-vkontakte\"></i>\n                        </span>\n                        <span mbr-if=\"odnoklassniki\" class=\"btn btn-social odnoklassniki mx-2\" title=\"Share link on Odnoklassniki\">\n                            <i class=\"socicon socicon-odnoklassniki\"></i>\n                        </span>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qPTgldcH6M",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "social-buttons1-1p"
         },
         {
           "_styles": {
@@ -1463,7 +1459,7 @@
             }
           },
           "_name": "form4",
-          "_customHTML": "<section class=\"mbr-section form4\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n\n        <input type=\"map\" title=\"Map\" name=\"googleMap\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Show Subheading\" name=\"showSubheading\" checked>\n        <input type=\"checkbox\" title=\"Show Contacts\" name=\"showContacts\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Form\" name=\"showForm\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <!-- <div class=\"col-md-6\">\n                <div class=\"google-map\" mbr-map=\"googleMap\">\n                </div>\n            </div> -->\n            <div class=\"col-md-12\">\n                <h2 mbr-if=\"showTitle\" class=\"pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\">Contato</h2>\n                <div>\n                    <div class=\"icon-block pb-3\">\n                        <span mbr-if=\"showIcons\" class=\"icon-block__icon\">\n                            <span mbr-icon class=\"mbri-letter mbr-iconfont\"></span>\n                        </span>\n                        <h4 mbr-if=\"showSubheading\" class=\"icon-block__title align-center mbr-fonts-style\" mbr-theme-style=\"display-5\">Mande uma mensagem para marcar um horário</h4>\n                    </div>\n                    <div class=\"icon-contacts pb-3\" mbr-if=\"showContacts\">\n                        <h5 mbr-if=\"showSubtitle\" class=\"align-center mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            Informações de contato</h5>\n                        <p mbr-if=\"showText\" class=\"mbr-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Nome: Gustavo Canovas\n<br>Profissão: Ator\n<br>Registro Professional: DRT 32.287 Sp\n<br>Celular/Telefone: +55 11 98272-4321\n<br>E-mail: canovasgustavo@gmail.com</p>\n                    </div>\n                </div>\n                <div mbr-form mbr-if=\"showForm\">\n                    <div data-form-alert hidden>Sua mensagem foi enviada!</div>\n                    <form class=\"block mbr-form\" action=\"guimaveloso@gmail.com\" method=\"post\" name=\"Mobirise Form\">\n                        <div class=\"row\">\n                            <div class=\"col-md-6 multi-horizontal\" data-for=\"name\">\n                                <input type=\"text\" class=\"form-control input\" name=\"name\" data-form-field=\"Name\" placeholder=\"Nome\" required>\n                            </div>\n                            <div class=\"col-md-6 multi-horizontal\" data-for=\"phone\">\n                                <input type=\"text\" class=\"form-control input\" name=\"phone\" data-form-field=\"Phone\" placeholder=\"Telefone/Celular\" required>\n                            </div>\n                            <div class=\"col-md-12\" data-for=\"email\">\n                                <input type=\"text\" class=\"form-control input\" name=\"email\" data-form-field=\"Email\" placeholder=\"E-mail\" required>\n                            </div>\n                            <div class=\"col-md-12\" data-for=\"message\">\n                                <textarea class=\"form-control input\" name=\"message\" rows=\"3\" data-form-field=\"Message\" placeholder=\"Mensagem\" style=\"resize:none\"></textarea>\n                            </div>\n                            <div class=\"input-group-btn col-md-12\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" style=\"margin-top: 10px;\"><a href type=\"submit\" class=\"btn btn-primary btn-form\">Enviar Mensagem</a></div>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section form4\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n\n        <input type=\"map\" title=\"Map\" name=\"googleMap\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <input type=\"checkbox\" title=\"Show Subheading\" name=\"showSubheading\" checked>\n        <input type=\"checkbox\" title=\"Show Contacts\" name=\"showContacts\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Form\" name=\"showForm\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <!-- <div class=\"col-md-6\">\n                <div class=\"google-map\" mbr-map=\"googleMap\">\n                </div>\n            </div> -->\n            <div class=\"col-md-12\">\n                <h2 mbr-if=\"showTitle\" class=\"pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\">Contato</h2>\n                <div>\n                    <div class=\"icon-block pb-3\">\n                        <span mbr-if=\"showIcons\" class=\"icon-block__icon\">\n                            <span mbr-icon class=\"mbri-letter mbr-iconfont\"></span>\n                        </span>\n                        <h4 mbr-if=\"showSubheading\" class=\"icon-block__title align-center mbr-fonts-style\" mbr-theme-style=\"display-5\">Informações de contato</h4>\n                    </div>\n                    <div class=\"icon-contacts pb-3\" mbr-if=\"showContacts\">\n                        <h5 mbr-if=\"showSubtitle\" class=\"align-center mbr-fonts-style\" mbr-theme-style=\"display-7\"></h5>\n                        <p mbr-if=\"showText\" class=\"mbr-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Nome: </b>Gustavo Canovas\n<br><b>Profissão:</b> Ator\n<br><b>Registro Professional:</b> DRT 32.287 Sp\n<br><b>Celular/Telefone:</b> +55 (11) 98272-4321\n<br><b>E-mail:</b> canovasgustavo@gmail.com</p>\n                    </div>\n                </div>\n                <div mbr-form mbr-if=\"showForm\">\n                    <div data-form-alert hidden>Sua mensagem foi enviada!</div>\n                    <form class=\"block mbr-form\" action=\"guimaveloso@gmail.com\" method=\"post\" name=\"Mobirise Form\">\n                        <div class=\"row\">\n                            <div class=\"col-md-6 multi-horizontal\" data-for=\"name\">\n                                <input type=\"text\" class=\"form-control input\" name=\"name\" data-form-field=\"Name\" placeholder=\"Nome\" required>\n                            </div>\n                            <div class=\"col-md-6 multi-horizontal\" data-for=\"phone\">\n                                <input type=\"text\" class=\"form-control input\" name=\"phone\" data-form-field=\"Phone\" placeholder=\"Telefone/Celular\" required>\n                            </div>\n                            <div class=\"col-md-12\" data-for=\"email\">\n                                <input type=\"text\" class=\"form-control input\" name=\"email\" data-form-field=\"Email\" placeholder=\"E-mail\" required>\n                            </div>\n                            <div class=\"col-md-12\" data-for=\"message\">\n                                <textarea class=\"form-control input\" name=\"message\" rows=\"3\" data-form-field=\"Message\" placeholder=\"Mensagem\" style=\"resize:none\"></textarea>\n                            </div>\n                            <div class=\"input-group-btn col-md-12\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" style=\"margin-top: 10px;\"><a href type=\"submit\" class=\"btn btn-primary btn-form\">Enviar Mensagem</a></div>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qPdJXU9FES",
           "_anchor": "form4-x",
           "_PHPplaceholders": [],
