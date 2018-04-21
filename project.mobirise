@@ -36,8 +36,9 @@
     "versionPublish": "4.7.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
-    "favicon": "",
-    "noImageResize": ""
+    "favicon": "@PROJECT_PATH@/assets/images/01-128x161.png",
+    "noImageResize": "",
+    "siteUrl": "undefined"
   },
   "pages": {
     "index.html": {
